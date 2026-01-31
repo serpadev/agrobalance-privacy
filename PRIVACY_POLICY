@@ -1,0 +1,136 @@
+# Política de Privacidad de AgroBalance
+
+**Última actualización:** 31 de enero de 2026
+
+## Introducción
+
+AgroBalance ("nosotros", "nuestro" o "la aplicación") respeta tu privacidad y se compromete a proteger tus datos personales. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y tus derechos respecto a tus datos.
+
+## 1. Información que Recopilamos
+
+### 1.1 Información que Proporcionas
+- **Datos de cuenta:** Si creas una cuenta con Google Sign-In, recopilamos tu nombre, dirección de correo electrónico y foto de perfil proporcionados por Google.
+- **Datos de la aplicación:** Transacciones agrícolas, categorías, campañas y configuraciones que ingresas en la aplicación.
+- **Audio para transcripción:** Si activas la función de transcripción por voz, procesamos grabaciones de audio temporalmente para convertirlas en texto. El audio **no se almacena** después del procesamiento.
+
+### 1.2 Información Recopilada Automáticamente
+- **Datos de Analytics:** Utilizamos Firebase Analytics para recopilar información sobre el uso de la aplicación (eventos, pantallas visitadas, duración de sesiones). Esta información es anónima y agregada.
+- **Datos de publicidad:** Google AdMob puede recopilar identificadores de dispositivo y datos de uso para mostrar anuncios personalizados.
+- **Información del dispositivo:** Tipo de dispositivo, sistema operativo, versión de la aplicación.
+
+## 2. Cómo Usamos tu Información
+
+Utilizamos la información recopilada para:
+- Proporcionar y mantener la funcionalidad de la aplicación
+- Sincronizar tus datos entre dispositivos (si usas la función Premium de backup en la nube)
+- Mejorar la experiencia del usuario mediante análisis de uso
+- Mostrar anuncios relevantes (solo para usuarios no Premium)
+- Procesar compras dentro de la aplicación (suscripción Premium)
+- Responder a solicitudes de soporte técnico
+
+## 3. Almacenamiento de Datos
+
+### 3.1 Almacenamiento Local
+Por defecto, todos tus datos (transacciones, categorías, campañas) se almacenan **localmente en tu dispositivo** utilizando Hive, una base de datos local. Estos datos **no se envían a servidores externos** a menos que actives la función de backup en la nube.
+
+### 3.2 Almacenamiento en la Nube (Función Premium)
+Si activas el backup en la nube (función Premium):
+- Tus datos se almacenan de forma segura en Firebase Cloud Firestore y Firebase Storage
+- Los datos están vinculados a tu cuenta de Google
+- Puedes eliminar tus datos de la nube en cualquier momento desde la aplicación
+
+## 4. Servicios de Terceros
+
+La aplicación utiliza los siguientes servicios de terceros que pueden recopilar información:
+
+### 4.1 Firebase (Google)
+- **Firebase Analytics:** Análisis de uso anónimo
+- **Firebase Authentication:** Inicio de sesión con Google
+- **Cloud Firestore:** Almacenamiento de datos en la nube (solo Premium)
+- **Firebase Storage:** Almacenamiento de backups (solo Premium)
+- Política de privacidad: https://firebase.google.com/support/privacy
+
+### 4.2 Google AdMob
+- Muestra anuncios en la versión gratuita
+- Puede recopilar identificadores de dispositivo para personalización de anuncios
+- Política de privacidad: https://policies.google.com/privacy
+
+### 4.3 Google Sign-In
+- Autenticación mediante cuenta de Google
+- Política de privacidad: https://policies.google.com/privacy
+
+### 4.4 Speech-to-Text
+- Procesa audio localmente en tu dispositivo para transcripción
+- El audio **no se envía a servidores** ni se almacena
+
+## 5. Compartir Información
+
+**No vendemos ni compartimos** tu información personal con terceros, excepto:
+- Con servicios de terceros mencionados anteriormente (Firebase, AdMob) según sea necesario para el funcionamiento de la aplicación
+- Si es requerido por ley o en respuesta a procesos legales válidos
+- Para proteger nuestros derechos, privacidad, seguridad o propiedad
+
+## 6. Seguridad de Datos
+
+Implementamos medidas de seguridad técnicas y organizativas para proteger tus datos:
+- Conexiones cifradas (HTTPS/TLS) con servicios en la nube
+- Autenticación segura mediante Google Sign-In
+- Almacenamiento local protegido por el sistema de seguridad de Android
+
+Sin embargo, ningún método de transmisión por Internet es 100% seguro. No podemos garantizar la seguridad absoluta de tus datos.
+
+## 7. Retención de Datos
+
+- **Datos locales:** Se mantienen en tu dispositivo hasta que desinstales la aplicación o los elimines manualmente
+- **Datos en la nube:** Se mantienen mientras tu cuenta esté activa. Puedes eliminarlos en cualquier momento desde la aplicación
+- **Datos de Analytics:** Firebase retiene datos analíticos agregados según su política (típicamente 2-14 meses)
+
+## 8. Tus Derechos
+
+Tienes derecho a:
+- **Acceder** a tus datos personales
+- **Corregir** información inexacta
+- **Eliminar** tus datos (desde la configuración de la aplicación o contactándonos)
+- **Exportar** tus datos (función de exportación disponible en Configuración)
+- **Revocar consentimientos** (puedes desactivar Analytics, transcripción de voz, etc.)
+- **Oponerte** al procesamiento de datos para publicidad personalizada
+
+## 9. Privacidad de Menores
+
+AgroBalance no está dirigida a menores de 13 años. No recopilamos intencionalmente información de menores de 13 años. Si descubres que un menor ha proporcionado información personal, contáctanos para eliminarla.
+
+## 10. Cambios a esta Política
+
+Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cambios significativos mediante:
+- Actualización de la fecha "Última actualización" al inicio de esta política
+- Notificación dentro de la aplicación (para cambios importantes)
+
+Te recomendamos revisar esta política periódicamente.
+
+## 11. Transferencias Internacionales
+
+Tus datos pueden ser transferidos y procesados en servidores ubicados fuera de tu país de residencia, donde las leyes de protección de datos pueden ser diferentes. Al usar AgroBalance, consientes estas transferencias.
+
+## 12. Contacto
+
+Si tienes preguntas sobre esta Política de Privacidad o sobre el tratamiento de tus datos, contáctanos:
+
+**Email:** serpadvlp@gmail.com
+**Desarrollador:** SerpaaDev
+**Aplicación:** AgroBalance
+
+---
+
+## Resumen de Permisos
+
+### Permisos que Solicitamos:
+- **Internet (INTERNET):** Requerido para Firebase, AdMob y sincronización en la nube
+- **Grabar Audio (RECORD_AUDIO):** Requerido solo si activas la transcripción por voz. Puedes desactivarlo en Configuración
+
+### Permisos Opcionales (solicitados bajo demanda):
+- **Archivos/Almacenamiento:** Para importar/exportar datos y backups locales
+- **Cámara/Galería:** Para adjuntar imágenes a transacciones (función futura)
+
+---
+
+**Al usar AgroBalance, aceptas esta Política de Privacidad.**
